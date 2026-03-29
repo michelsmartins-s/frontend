@@ -6,21 +6,6 @@ body {
     display: none;
 }
 
-@media (max-width: 768px) {
-    .menu-nav {
-        display: block;
-    }
-
-    .main-links {
-        display: none;
-    }
-
-    .main-links.aberta {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 .main-banner {
     height: 790px;
     background-image: url('../img/obk-bannerdesktop.webp');
@@ -173,6 +158,45 @@ nav {
 
 .coluna2 a:hover {
     opacity: 75%;
+}
+
+@media (max-width: 768px) {
+    .menu-nav {
+        display: block;
+    }
+
+    .main-links {
+        display: none !important;
+    }
+
+    .main-links.aberta {
+        display: flex !important;
+        flex-direction: column;
+        position: absolute;
+        top: 75px;
+        left: 0px;
+        height: 100%;
+        background-color: white;
+
+        }
+
+    #pesquisa {
+        display: none;
+    }
+
+    .main-banner {
+        height: 300px;
+    }
+
+    .cards-div {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .sobre-nos {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 
