@@ -1,0 +1,179 @@
+body {
+    font-family: 'roboto';
+}
+
+.menu-nav {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-nav {
+        display: block;
+    }
+
+    .main-links {
+        display: none;
+    }
+
+    .main-links.aberta {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.main-banner {
+    height: 790px;
+    background-image: url('../img/obk-bannerdesktop.webp');
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.main-logo img{
+    display: flex;
+    height: 50px;
+}
+
+#pesquisa {
+    border-radius: 15px;
+    border-color: white;
+    background-color: rgb(221, 221, 221);
+    height: 20px;
+}
+
+.main-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-links a {
+    text-decoration: none;
+    color: brown;
+}
+
+.main-links a:hover {opacity: 75%;}
+
+.main-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 10px;
+}
+
+.main-titulo img {
+    height: 60px;
+}
+
+.cards-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 100px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-div a {
+    text-decoration: none;
+    color: brown;
+    font-size: 20px;
+}
+
+.cards-div a:hover {
+    height: 110%;
+}
+
+
+.card-img {
+    display: flex;
+}
+
+.card-img img {
+    height: 150px;
+    border-radius: 20px;
+}
+
+.card-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrossel-div {
+    display: flex;
+    overflow-x: auto;
+    gap: 50px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrossel-img img {
+    border-radius: 20px;
+}
+
+.nao-beber {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nao-beber h1 {color: white; font-size: 20px;}
+.nao-beber p {color: white; font-size: 10px; margin: 0;}
+
+.sobre-nos {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.footer-logo {
+    padding: 20px;
+}
+
+.coluna1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.coluna2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.coluna1 a {
+    text-decoration: none;
+    color: brown;
+}
+
+.coluna2 a {
+    text-decoration: none;
+    color: brown;
+}
+
+.coluna1 a:hover {
+    opacity: 75%;
+}
+
+.coluna2 a:hover {
+    opacity: 75%;
+}
+
+
+
