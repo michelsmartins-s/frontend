@@ -2,6 +2,25 @@ body {
     font-family: 'roboto';
 }
 
+.menu-nav {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-nav {
+        display: block;
+    }
+
+    .main-links {
+        display: none;
+    }
+
+    .main-links.aberta {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .main-banner {
     height: 790px;
     background-image: url('../img/obk-bannerdesktop.webp');
@@ -114,7 +133,7 @@ nav {
 }
 
 .nao-beber h1 {color: white; font-size: 20px;}
-.nao-beber p {color: white; font-size: 10; margin: 0;}
+.nao-beber p {color: white; font-size: 10px; margin: 0;}
 
 .sobre-nos {
     display: flex;
@@ -123,7 +142,7 @@ nav {
 }
 
 .footer-logo {
-    padding: 100px;
+    padding: 20px;
 }
 
 .coluna1 {
@@ -149,11 +168,11 @@ nav {
 }
 
 .coluna1 a:hover {
-    font-size: 120%;
+    opacity: 75%;
 }
 
 .coluna2 a:hover {
-    font-size: 120%;
+    opacity: 75%;
 }
 
 
