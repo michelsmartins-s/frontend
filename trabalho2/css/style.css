@@ -50,7 +50,7 @@ nav ul {
 }
 
 nav ul li a {
-    display: block;
+    display: inline-block;
     padding: 12px 16px;
     color: #c8a96e;
     text-decoration: none;
