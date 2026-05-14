@@ -112,7 +112,6 @@ figure {
 }
 
 figure img {
-    margin: 0 auto;
     border: 2px solid #d4c4a0;
     border-radius: 4px;
     max-height: 400px;
