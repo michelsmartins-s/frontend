@@ -63,7 +63,7 @@ nav ul li a:focus-visible {
 }
 
 footer {
-    background: var(--cor-marrom-escuro);
+    background: var(--cor-dourado-claro);
     border-top: 3px solid var(--cor-dourado);
     padding: 20px;
     text-align: center;
