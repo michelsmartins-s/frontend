@@ -60,10 +60,10 @@ nav ul li a:hover,
 nav ul li a:focus-visible {
     background-color: var(--cor-marrom-medio);
     color: var(--cor-branco);
-}
+}ourado-claro
 
 footer {
-    background: var(--cor-dourado-claro);
+    background: var(--cor-marrom-escuro);
     border-top: 3px solid var(--cor-dourado);
     padding: 20px;
     text-align: center;
@@ -73,4 +73,5 @@ footer {
 
 footer p {
     margin: 4px 0;
+    color: var(--cor-dourado-claro);
 }
