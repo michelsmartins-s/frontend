@@ -1,0 +1,21 @@
+:root {
+    /* Cores */
+    --cor-fundo: #f5f0e8;
+    --cor-texto: #1c1208;
+    --cor-texto-suave: #4a3728;
+    --cor-marrom-escuro: #1a0a00;
+    --cor-marrom: #2c1408;
+    --cor-marrom-medio: #6b2d0e;
+    --cor-dourado: #c8a96e;
+    --cor-dourado-claro: #b0a080;
+    --cor-borda: #d4c4a0;
+    --cor-branco: #ffffff;
+ 
+    /* Fontes */
+    --fonte-titulo: 'Playfair Display', Georgia, serif;
+    --fonte-texto: 'Source Serif 4', Georgia, serif;
+ 
+    /* Bordas */
+    --radius: 4px;
+    --border-width: 2px;
+}

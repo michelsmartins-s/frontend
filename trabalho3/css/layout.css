@@ -1,0 +1,80 @@
+/* Define o layout da página, a estrutura principal.
+Também define header, nav, main, footer, etc.
+Este arquivo é específico deste projeto. */
+
+/* Topo fixado com sticky */
+.fixed {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    background-color: var(--cor-marrom-escuro);
+    border-bottom: 3px solid var(--cor-dourado);
+    padding: 12px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0;
+}
+
+.logo-imagem {
+    width: 60px;
+    border-radius: var(--radius);
+}
+
+.logo-texto {
+    font-size: 13px;
+    font-style: italic;
+    color: var(--cor-dourado-claro);
+}
+
+nav {
+    background-color: var(--cor-marrom);
+    border-bottom: 2px solid var(--cor-dourado);
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 12px 16px;
+    color: var(--cor-dourado);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover,
+nav ul li a:focus-visible {
+    background-color: var(--cor-marrom-medio);
+    color: var(--cor-branco);
+}
+
+footer {
+    background: var(--cor-marrom-escuro);
+    border-top: 3px solid var(--cor-dourado);
+    padding: 20px;
+    text-align: center;
+    color: var(--cor-dourado-claro);
+    font-size: 14px;
+}
+
+footer p {
+    margin: 4px 0;
+}
