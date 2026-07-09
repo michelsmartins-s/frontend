@@ -1,9 +1,4 @@
-/* Este arquivo define os componentes da interface.
-Um componente pode ser reutilizado em vários pontos da página
-Exemplos: banner, formulário, painel de fotos, galeria, cards etc. */
 
-/* ---- Banner animado ----
-linear-gradient + @keyframes, movendo o background-position */
 .banner-animado {
     display: flex;
     flex-wrap: wrap;
@@ -39,10 +34,10 @@ linear-gradient + @keyframes, movendo o background-position */
     }
 }
 
-/* ---- Figuras ---- */
+
 figure {
     margin: 24px 0;
-    text-align: center;
+    text-align: center;https://michelsmartins-s.github.io/frontend/trabalho3/index.html
 }
 
 figure img {
@@ -79,7 +74,7 @@ figcaption {
     color: var(--cor-branco);
 }
 
-/* ---- Formulário + figura (grid) ---- */
+
 .grid-formulario {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -183,7 +178,7 @@ figcaption {
     }
 }
 
-/* ---- Painel de fotos (grid) ---- */
+
 .painel-fotos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -208,7 +203,7 @@ figcaption {
 
 .painel-fotos .foto-larga {
     grid-column: span 2;
-}
+}https://michelsmartins-s.github.io/frontend/trabalho3/index.html
 
 .painel-fotos .foto-alta {
     grid-row: span 2;
@@ -226,7 +221,6 @@ figcaption {
     }
 }
 
-/* ---- Galeria (Trabalho anterior) ---- */
 .galeria {
     display: flex;
     flex-wrap: wrap;
@@ -254,7 +248,7 @@ figcaption {
     font-size: 13px;
 }
 
-/* ---- Referências ---- */
+
 #referencias {
     margin-top: 32px;
     padding-top: 16px;
