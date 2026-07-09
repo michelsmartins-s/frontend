@@ -1,8 +1,4 @@
-/* Define o layout da página, a estrutura principal.
-Também define header, nav, main, footer, etc.
-Este arquivo é específico deste projeto. */
 
-/* Topo fixado com sticky */
 .fixed {
     position: sticky;
     top: 0px;
